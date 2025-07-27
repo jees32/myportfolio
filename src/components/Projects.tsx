@@ -5,26 +5,26 @@ const projects = [
     id: 1,
     title: "Distributor Application",
     description: `A comprehensive sales management system built with React and Next.js, featuring Clerk authentication and NeonDB. This application streamlines transaction management for sales staff across multiple retail locations, providing real-time dashboards with transaction analytics, debtor tracking, and performance insights.`,
-    image: "/vendor2.png"
+    image: "/myportfolio/vendor2.png"
   },
   {
     id: 2,
     title: "Invoice Pilot Application",
     description: `A sophisticated invoice management platform that enables businesses to create, customize, and send professional invoices with dynamic templates. Features an AI-powered interactive dashboard providing comprehensive trade analytics, financial insights, and automated reporting capabilities.`,
-    image: "/Invoicepilot1.png"
+    image: "/myportfolio/Invoicepilot1.png"
   },
   {
     id: 3,
     title: "Blog Website",
     description: `A fully functional personal blog website where users can sign up and comment on the posts made by the author. The website shows a welcome message with the username and is mobile responsive. It was designed with Bootstrap and Flask framework. There is a contact form where users can contact the author.`,
-    image: "/blog.jpg",
+    image: "/myportfolio/blog.jpg",
     link: "https://myblog-4k1k.onrender.com/"
   },
   {
     id: 4,
     title: "Mypass App",
     description: `A secure password management desktop application built with Python and Tkinter GUI framework. Features include automatic generation of strong, cryptographically secure passwords, encrypted storage of credentials in JSON format, and an intuitive interface for easy retrieval of saved login information. Implements best practices for password security and data protection.`,
-    image: "/images/mypass.jpg"
+    image: "/myportfolio/images/mypass.jpg"
   }
 ];
 

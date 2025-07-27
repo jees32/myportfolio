@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
             <div className="text-center mb-8">
-              <Image src="/images/office.jpg" alt="Office" width={144} height={114} className="rounded-lg mx-auto mb-6" />
+              <Image src="/myportfolio/images/office.jpg" alt="Office" width={144} height={114} className="rounded-lg mx-auto mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Get In Touch</h3>
               <p className="text-gray-600 text-lg">I&apos;m always open to discussing new opportunities, interesting projects, and potential collaborations. Let&apos;s connect and explore how we can work together.</p>
             </div>
