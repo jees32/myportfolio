@@ -6,9 +6,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen">
       <Navigation />
-      <div className="pt-16">
-        <Contact />
-      </div>
+      <Contact />
       <Footer />
     </main>
   );

@@ -6,9 +6,7 @@ export default function SkillsPage() {
   return (
     <main className="min-h-screen">
       <Navigation />
-      <div className="pt-16">
-        <Skills />
-      </div>
+      <Skills />
       <Footer />
     </main>
   );

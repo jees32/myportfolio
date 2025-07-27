@@ -6,9 +6,7 @@ export default function ProjectsPage() {
   return (
     <main className="min-h-screen">
       <Navigation />
-      <div className="pt-16">
-        <Projects />
-      </div>
+      <Projects />
       <Footer />
     </main>
   );
