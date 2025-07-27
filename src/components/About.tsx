@@ -14,15 +14,15 @@ export default function About() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
               <p className="text-base text-gray-700 leading-relaxed mb-4">
-                Hi! I'm Jees Jose — an aspiring full-stack developer currently pursuing a Master of Computer Applications (MCA) online. I'm passionate about building modern web applications and exploring the possibilities of AI in software development.
+                Hi! I&apos;m Jees Jose — an aspiring full-stack developer currently pursuing a Master of Computer Applications (MCA) online. I&apos;m passionate about building modern web applications and exploring the possibilities of AI in software development.
               </p>
               
               <p className="text-base text-gray-700 leading-relaxed mb-4">
-                My technical skill set includes the MERN stack (MongoDB, Express.js, React.js, Node.js), NEXT JS, Python, Java, and database management systems (DBMS). I'm also continuously strengthening my knowledge of core computer science concepts such as data structures, operating systems, and object-oriented programming.
+                My technical skill set includes the MERN stack (MongoDB, Express.js, React.js, Node.js), NEXT JS, Python, Java, and database management systems (DBMS). I&apos;m also continuously strengthening my knowledge of core computer science concepts such as data structures, operating systems, and object-oriented programming.
               </p>
               
               <p className="text-base text-gray-700 leading-relaxed">
-                I believe in learning by doing, and I enjoy turning ideas into practical, scalable solutions through code. Whether it's developing interactive UIs, working with APIs, or exploring machine learning, I'm always eager to take on new challenges and grow as a developer.
+                I believe in learning by doing, and I enjoy turning ideas into practical, scalable solutions through code. Whether it&apos;s developing interactive UIs, working with APIs, or exploring machine learning, I&apos;m always eager to take on new challenges and grow as a developer.
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+
 import Image from 'next/image';
 
 export default function Contact() {
@@ -18,7 +18,7 @@ export default function Contact() {
             <div className="text-center mb-8">
               <Image src="/images/office.jpg" alt="Office" width={144} height={114} className="rounded-lg mx-auto mb-6" />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Get In Touch</h3>
-              <p className="text-gray-600 text-lg">I'm always open to discussing new opportunities, interesting projects, and potential collaborations. Let's connect and explore how we can work together.</p>
+              <p className="text-gray-600 text-lg">I&apos;m always open to discussing new opportunities, interesting projects, and potential collaborations. Let&apos;s connect and explore how we can work together.</p>
             </div>
             
             <div className="space-y-6">
@@ -70,7 +70,7 @@ export default function Contact() {
 
             <div className="mt-8 text-center">
               <p className="text-gray-600 text-lg leading-relaxed">
-                Whether you have a project in mind, want to discuss potential opportunities, or simply want to connect, I'd love to hear from you. I'm committed to responding promptly and look forward to our conversation.
+                Whether you have a project in mind, want to discuss potential opportunities, or simply want to connect, I&apos;d love to hear from you. I&apos;m committed to responding promptly and look forward to our conversation.
               </p>
             </div>
           </div>

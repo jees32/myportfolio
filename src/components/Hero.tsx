@@ -16,9 +16,9 @@ export default function Hero() {
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 animate-fade-in-up animation-delay-200">
                 Full Stack Developer (Python & Django)
               </h2>
-              <p className="italic text-blue-700 text-lg animate-fade-in-up animation-delay-400">"Building the web of today, exploring the intelligence of tomorrow."</p>
+              <p className="italic text-blue-700 text-lg animate-fade-in-up animation-delay-400">&ldquo;Building the web of today, exploring the intelligence of tomorrow.&rdquo;</p>
               <p className="text-lg text-gray-600 max-w-lg animate-fade-in-up animation-delay-600">
-                As an aspiring Full Stack Developer, I specialize in backend technologies such as Python, Django and Node JS, while also working with front-end technologies REACT and NEXT JS. Passionate about creating user-centric digital solutions, I aim to leverage my technical skills to build innovative web applications that solve real-world problems and make a positive impact on users' lives.
+                As an aspiring Full Stack Developer, I specialize in backend technologies such as Python, Django and Node JS, while also working with front-end technologies REACT and NEXT JS. Passionate about creating user-centric digital solutions, I aim to leverage my technical skills to build innovative web applications that solve real-world problems and make a positive impact on users&apos; lives.
               </p>
             </div>
             {/* CTA Buttons */}

@@ -38,7 +38,7 @@ export default function Projects() {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Here are some of the projects I've worked on. Each one represents a unique challenge and showcases different aspects of my development skills.
+            Here are some of the projects I&apos;ve worked on. Each one represents a unique challenge and showcases different aspects of my development skills.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
