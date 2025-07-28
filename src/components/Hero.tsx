@@ -24,7 +24,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-800">
               <a
-                href="/projects"
+                href="/myportfolio/projects"
                 className="group bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform inline-flex items-center justify-center"
               >
                 <span className="flex items-center justify-center">
@@ -35,7 +35,7 @@ export default function Hero() {
                 </span>
               </a>
               <a
-                href="/contact"
+                href="/myportfolio/contact"
                 className="group border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 hover:scale-105 transform inline-flex items-center justify-center"
               >
                 <span className="flex items-center justify-center">

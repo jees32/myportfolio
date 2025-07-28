@@ -9,71 +9,111 @@ export default function About() {
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
         </div>
 
-        {/* Introduction */}
+        {/* Introduction + Key Skills Grid (side by side) */}
         <div className="mb-12">
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto items-stretch">
+            {/* Left: Paragraphs */}
+            <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100 flex flex-col justify-center">
               <p className="text-base text-gray-700 leading-relaxed mb-4">
                 Hi! I&apos;m Jees Jose — an aspiring full-stack developer currently pursuing a Master of Computer Applications (MCA) online. I&apos;m passionate about building modern web applications and exploring the possibilities of AI in software development.
               </p>
-              
               <p className="text-base text-gray-700 leading-relaxed mb-4">
                 My technical skill set includes the MERN stack (MongoDB, Express.js, React.js, Node.js), NEXT JS, Python, Java, and database management systems (DBMS). I&apos;m also continuously strengthening my knowledge of core computer science concepts such as data structures, operating systems, and object-oriented programming.
               </p>
-              
               <p className="text-base text-gray-700 leading-relaxed">
                 I believe in learning by doing, and I enjoy turning ideas into practical, scalable solutions through code. Whether it&apos;s developing interactive UIs, working with APIs, or exploring machine learning, I&apos;m always eager to take on new challenges and grow as a developer.
               </p>
             </div>
-          </div>
-        </div>
-
-        {/* Key Skills Grid */}
-        <div className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100">
-              <div className="flex items-center mb-2">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M14.23 12.004a2.236 2.236 0 0 0-2.235 2.236 2.236 2.236 0 0 0 2.235 2.236 2.236 2.236 0 0 0 2.235-2.236 2.236 2.236 0 0 0-2.235-2.236zm-2.648 10.756c-1.816 0-3.56-.549-5.04-1.583a9.494 9.494 0 0 1-3.12-4.21 9.413 9.413 0 0 1-.576-2.583c-.096-.9.013-1.8.32-2.64.308-.84.81-1.6 1.47-2.22.66-.62 1.46-1.08 2.34-1.35.88-.27 1.8-.33 2.72-.18.92.15 1.8.52 2.56 1.08.76.56 1.38 1.28 1.82 2.12.44.84.68 1.8.68 2.76 0 1.06-.28 2.1-.82 3.02-.54.92-1.32 1.7-2.24 2.28-.92.58-1.96.88-3.04.88z"/>
-                  </svg>
+            {/* Right: Skills Grid */}
+            <div className="grid grid-cols-2 gap-4 h-full">
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M14.23 12.004a2.236 2.236 0 0 0-2.235 2.236 2.236 2.236 0 0 0 2.235 2.236 2.236 2.236 0 0 0 2.235-2.236 2.236 2.236 0 0 0-2.235-2.236zm-2.648 10.756c-1.816 0-3.56-.549-5.04-1.583a9.494 9.494 0 0 1-3.12-4.21 9.413 9.413 0 0 1-.576-2.583c-.096-.9.013-1.8.32-2.64.308-.84.81-1.6 1.47-2.22.66-.62 1.46-1.08 2.34-1.35.88-.27 1.8-.33 2.72-.18.92.15 1.8.52 2.56 1.08.76.56 1.38 1.28 1.82 2.12.44.84.68 1.8.68 2.76 0 1.06-.28 2.1-.82 3.02-.54.92-1.32 1.7-2.24 2.28-.92.58-1.96.88-3.04.88z"/>
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">React</div>
                 </div>
-                <div className="text-gray-900 font-semibold">React</div>
+                <div className="text-sm text-gray-600">Frontend Development</div>
               </div>
-              <div className="text-sm text-gray-600">Frontend Development</div>
-            </div>
-            <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100">
-              <div className="flex items-center mb-2">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
-                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">Next JS</div>
                 </div>
-                <div className="text-gray-900 font-semibold">Next JS</div>
+                <div className="text-sm text-gray-600">Full Stack Framework</div>
               </div>
-              <div className="text-sm text-gray-600">Full Stack Framework</div>
-            </div>
-            <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100">
-              <div className="flex items-center mb-2">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm-2 16.018V8.018h4v8h-4zm6-8.018v8h2V8h-2z"/>
-                  </svg>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm-2 16.018V8.018h4v8h-4zm6-8.018v8h2V8h-2z"/>
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">Django</div>
                 </div>
-                <div className="text-gray-900 font-semibold">Django</div>
+                <div className="text-sm text-gray-600">Python Framework</div>
               </div>
-              <div className="text-sm text-gray-600">Python Framework</div>
-            </div>
-            <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100">
-              <div className="flex items-center mb-2">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
-                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                  </svg>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">MERN Stack</div>
                 </div>
-                <div className="text-gray-900 font-semibold">MERN Stack</div>
+                <div className="text-sm text-gray-600">MongoDB, Express, React, Node</div>
               </div>
-              <div className="text-sm text-gray-600">MongoDB, Express, React, Node</div>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">Python</div>
+                </div>
+                <div className="text-sm text-gray-600">Programming Language</div>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-orange-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">Java</div>
+                </div>
+                <div className="text-sm text-gray-600">Object-Oriented Programming</div>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">SQL</div>
+                </div>
+                <div className="text-sm text-gray-600">Database Management</div>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 transform border border-gray-100 flex flex-col justify-center">
+                <div className="flex items-center mb-2">
+                  <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center mr-2">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div className="text-gray-900 font-semibold">Data Structures</div>
+                </div>
+                <div className="text-sm text-gray-600">Core CS Concepts</div>
+              </div>
             </div>
           </div>
         </div>
