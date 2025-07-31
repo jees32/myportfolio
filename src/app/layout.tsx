@@ -60,10 +60,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  // Remove verification codes for now - add them later when you have a custom domain
-  // verification: {
-  //   google: 'your-google-verification-code',
-  // },
+  verification: {
+    google: 'YjxZq278ONGWrFm6z33Q2BtRfFKMxE--5lscFslRlYY', // Your actual Google Search Console verification code
+  },
 };
 
 export default function RootLayout({
