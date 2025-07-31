@@ -53,14 +53,14 @@ export default function Hero() {
             <div className="relative group">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1 group-hover:scale-105 transition-transform duration-500">
                 <div className="w-full h-full rounded-full bg-white p-2">
-                  <Image
-                    src="/myportfolio/images/jees_photo.jpeg"
-                    alt="Jees Jose Profile"
-                    width={320}
-                    height={320}
-                    className="rounded-full object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
-                    priority
-                  />
+                                     <Image
+                     src="/myportfolio/images/jees_photo.png"
+                     alt="Jees Jose Profile"
+                     width={320}
+                     height={320}
+                     className="rounded-full object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+                     priority
+                   />
                 </div>
               </div>
               {/* Enhanced decorative elements */}

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location for GitHub Pages
+Sitemap: https://jees32.github.io/myportfolio/sitemap.xml
+
+# Disallow any private or admin areas (if you have any)
+# Disallow: /admin/
+# Disallow: /private/ 

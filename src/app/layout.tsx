@@ -9,8 +9,61 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "Jees Jose - Full Stack Developer",
-  description: "Full Stack Developer specializing in Python, Django, and modern web technologies",
+  title: {
+    default: "Jees Jose - Full Stack Developer",
+    template: "%s | Jees Jose"
+  },
+  description: "Full Stack Developer specializing in Python, Django, React, Next.js, and modern web technologies. Experienced in building scalable web applications and APIs.",
+  keywords: ["Full Stack Developer", "Python", "Django", "React", "Next.js", "Web Development", "JavaScript", "TypeScript", "API Development"],
+  authors: [{ name: "Jees Jose" }],
+  creator: "Jees Jose",
+  publisher: "Jees Jose",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  // Remove metadataBase for GitHub Pages - use relative URLs
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    title: 'Jees Jose - Full Stack Developer',
+    description: 'Full Stack Developer specializing in Python, Django, React, Next.js, and modern web technologies.',
+    siteName: 'Jees Jose Portfolio',
+    images: [
+      {
+        url: '/images/jees_photo.png', // Fixed: using .png extension that exists
+        width: 1200,
+        height: 630,
+        alt: 'Jees Jose - Full Stack Developer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jees Jose - Full Stack Developer',
+    description: 'Full Stack Developer specializing in Python, Django, React, Next.js, and modern web technologies.',
+    images: ['/images/jees_photo.png'], // Fixed: using .png extension that exists
+    creator: '@yourtwitterhandle', // Replace with your Twitter handle
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  // Remove verification codes for now - add them later when you have a custom domain
+  // verification: {
+  //   google: 'your-google-verification-code',
+  // },
 };
 
 export default function RootLayout({
